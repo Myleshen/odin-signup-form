@@ -31,7 +31,7 @@
         </div>
         <div class="form-container">
             <h3>Let's do this!</h3>
-            <form>
+            <form method="GET" action="#" id="signup-form">
                 <div class="form-div">
                     <div><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName">
                     </div>
@@ -46,8 +46,8 @@
                 </div>
             </form>
         </div>
-        <div class="container login-block">
-            <button>
+        <div class="login-container login-block">
+            <button id="form-submit" type="submit" form="signup-form">
                 Create Account
             </button>
             <p>
@@ -55,6 +55,7 @@
             </p>
         </div>
     </div>
+    <script src="js/default.js"></script>
 </body>
 
 </html>
